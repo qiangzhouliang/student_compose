@@ -16,10 +16,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+        <!--android:name=".compose.todo.one.TodoActivity"-->
         <activity
-            android:name=".compose.todo.one.TodoActivity"
+            android:name=".compose.sideEffects.SideEffectActivity"
             android:exported="true"
-            android:label="@string/title_activity_todo"
             android:theme="@style/Theme.MyApplication">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
