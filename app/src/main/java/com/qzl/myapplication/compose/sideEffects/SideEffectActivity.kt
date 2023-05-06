@@ -19,7 +19,11 @@ class SideEffectActivity : ComponentActivity() {
 
                 //DisposableEffectSample(onBackPressedDispatcher)
 
-                produceStateSample()
+                //produceStateSample()
+
+                //DerivedStateOfSimple()
+
+                SnapshotFlowSample()
             }
         }
     }
